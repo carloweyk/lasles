@@ -1,0 +1,93 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 200px;
+}
+/* main */
+.body {
+  border-radius: 20px;
+  width: 60%;
+  height: 440px;
+  background-color: #f8f8f8;
+  padding: 60px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo-img {
+  margin-top: 20px;
+}
+.logo-link {
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 23.7px;
+
+}
+.logo-link h1 span {
+  font-weight: 700;
+}
+.logo h1 {
+  margin-left: 5px;}
+  .logo-link {
+    text-decoration: none;
+    
+  }
+
+hr {
+  width: 50%;
+
+}
+input {
+  border-radius: 5px;
+  border-color:#f53855;
+  text-align: center;
+  text-shadow: 10px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  border: solid 2px #f53855;
+}
+input:hover {
+  cursor: pointer;
+  border-color:#f53855;
+  border: solid 2px #f53855;
+}
+label {
+  font-family: serif;
+  font-weight: 400;
+  color: #f53855;
+  font-family: sans-serif;
+
+}
+.log-in,
+.cancel-log-in {
+  text-decoration: none;
+  color: #ffffff;
+  background: #f53855;
+  border-radius: 20px;
+  padding: 4px 6px;
+  font-size: 14px;
+}
+
+.log-in:hover,
+.cancel-log-in:hover {
+  padding: 3px 5px;
+  color: #f53855 ;
+  background:#ffffff ;
+  border: solid 1px #f53855;
+}
+.body h1 {
+  color: #f53855;
+  font-weight: 1000px;
+}
+.box1 h2 {
+  font-size: 50px;
+}
